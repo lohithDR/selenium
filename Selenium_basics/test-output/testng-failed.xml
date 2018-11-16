@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="testdemowebshop_design.demowebshop">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testregister"/>
+          <include name="testwelcome"/>
+          <include name="afterClass"/>
+          <include name="testlogin"/>
+        </methods>
+      </class> <!-- testdemowebshop_design.demowebshop -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="browserName" value="ie"/>
+    <classes>
+      <class name="testdemowebshop_design.demowebshop">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testregister"/>
+          <include name="testwelcome"/>
+          <include name="afterClass"/>
+          <include name="testlogin"/>
+        </methods>
+      </class> <!-- testdemowebshop_design.demowebshop -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test3(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="testdemowebshop_design.demowebshop">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testregister"/>
+          <include name="testwelcome"/>
+          <include name="afterClass"/>
+          <include name="testlogin"/>
+        </methods>
+      </class> <!-- testdemowebshop_design.demowebshop -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->

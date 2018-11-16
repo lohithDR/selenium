@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+    <test name="Test1">
+  <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+    		   <class name="testNG.newtour"/>
+    		   
+    </classes>
+      </test> 
+      <test name="Test2">
+  <parameter name="browserName" value="ie"></parameter>
+    <classes>
+    		   <class name="testNG.testdataprovider"/>
+    		   
+    </classes>
+      </test> 
+      <test name="Test3">
+  <parameter name="browserName" value="firefox"></parameter>
+    <classes>
+    		   <class name="testNG.testdataprovider"/>
+    		   
+    </classes>
+      </test> 
+</suite> <!-- Suite -->
